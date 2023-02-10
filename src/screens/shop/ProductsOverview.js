@@ -9,7 +9,7 @@ const ProductsOverview = props => {
   const products = useSelector(state=> state.products.availableProducts);
   const dispatch = useDispatch();
 
-  const renderItemHandler=(data)=>{
+  const renderItemHandler=(data)=>{ 
       return <ProductItem key={data.item.id} 
                           title={data.item.title} price={data.item.price} imageUrl={data.item.imageUrl}
                           onSelect={()=>props.navigation.navigate("ProductDetails",{

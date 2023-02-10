@@ -4,7 +4,7 @@ import  Icon  from 'react-native-vector-icons/Ionicons';
 import { useDispatch, useSelector } from 'react-redux';
 import ProductItem from '../../components/ProductItem';
 import Colors from '../../constants/Colors';
-import { deleteProduct } from '../../state/actions/productsActions';
+import { deleteProduct } from  '../../state/actions/productsActions';
 
 const UserProducts = props => {
           const {userProducts} = useSelector(state=> state.products);

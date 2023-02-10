@@ -8,7 +8,7 @@ import { addToOrders } from '../../state/actions/ordersActions';
 const Cart = () => {
   const dispatch = useDispatch();
   const cartProducts = useSelector(state=>{
-    const transformedItems = [];
+    const transformedItems = []; 
     for (const key in state.cartItems.items ){
       transformedItems.push({
             productId:key, 

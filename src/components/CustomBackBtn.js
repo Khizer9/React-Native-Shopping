@@ -4,7 +4,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 
 import Colors from '../constants/Colors';
 
-
+ 
 const CustomBackBtn = (props)=>{
     return <Pressable style={styles.container} onPress={props.onPress}>
                 <View style={styles.box}>
@@ -13,6 +13,7 @@ const CustomBackBtn = (props)=>{
           </Pressable>
   }
 
+  
   const styles = StyleSheet.create({
       container:{
          alignItems:'center', justifyContent:'center',

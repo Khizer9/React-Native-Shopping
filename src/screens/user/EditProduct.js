@@ -4,7 +4,7 @@ import Colors from '../../constants/Colors';
 import  Icon  from 'react-native-vector-icons/Ionicons';
 import { useDispatch, useSelector } from 'react-redux';
 import { createProduct, updateProduct } from '../../state/actions/productsActions';
-
+ 
 const EditProduct = props => {
   const {screenTitle, productId} = props.route.params;
   const editedProduct = useSelector(state=> state.products.userProducts.find(prod => prod.id === productId));

@@ -10,7 +10,7 @@ const initialState = {
 
 export default (state=initialState,action)=>{
     switch (action.type) {
-        case ADD_TO_CART:
+        case ADD_TO_CART: 
             const addedProd = action.product;
             const prodTitle = addedProd.title;
             const prodPrice = addedProd.price;

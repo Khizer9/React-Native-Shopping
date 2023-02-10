@@ -8,7 +8,7 @@ const Orders = () => {
   const {orders} = useSelector(state=>state.orders);
 
   console.log(orders.items);
-
+ 
 
   return  <SafeAreaView style={styles.sectionContainer}>
             <View style={styles.header}>

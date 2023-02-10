@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {StyleSheet, View, Text, Pressable, Dimensions} from 'react-native';
 import CartItem from './CartItem';
 import Colors from '../constants/Colors';
-
+ 
 const OrderItem = ({total, date,items})=>{
             const [showDetails, setShowDetails] = useState(false);
     return   <View style={styles.container}>

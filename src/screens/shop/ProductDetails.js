@@ -8,7 +8,7 @@ import { addToCart } from '../../state/actions/cartActions';
 const ProductDetails = props => {
       const {productId } = props.route.params;
       const selectedProduct = useSelector(state=> state.products.availableProducts.find(prod=>prod.id===productId));
-      const dispatch = useDispatch();
+      const dispatch = useDispatch(); 
 
       useLayoutEffect(()=>{
           props.navigation.setOptions({headerTitle:selectedProduct.title,

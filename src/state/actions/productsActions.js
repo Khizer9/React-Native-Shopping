@@ -12,7 +12,7 @@ export const deleteProduct = productId =>{
 
 export const createProduct = (title, description, imageUrl, price) =>{
     return {
-        type:CREATE_PRODUCT,
+        type:CREATE_PRODUCT, 
         itemData:{
             title, description, imageUrl, price,
         }

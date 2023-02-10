@@ -10,4 +10,4 @@ const rootReducer = combineReducers({
     orders:ordersReducers
 })
 
-export default createStore(rootReducer);
+export default createStore(rootReducer); 

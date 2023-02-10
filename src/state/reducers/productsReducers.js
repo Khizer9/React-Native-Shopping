@@ -12,7 +12,7 @@ export default (state=initialState, action)=>{
         case CREATE_PRODUCT:
             const newProd = new Product( new Date().valueOf(),'u1', action.itemData.title,
                                          action.itemData.imageUrl, action.itemData.description,
-                                         action.itemData.price
+                                          action.itemData.price
                                         );
         return {
             ...state,

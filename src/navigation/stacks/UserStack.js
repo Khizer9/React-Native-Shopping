@@ -3,7 +3,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import UserProducts from '../../screens/user/UserProducts';
 import EditProduct from '../../screens/user/EditProduct';
 
-const Stack = createNativeStackNavigator();
+const Stack  = createNativeStackNavigator();
 const  UserStack = () => {
   return (
       <Stack.Navigator >

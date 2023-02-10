@@ -42,6 +42,8 @@ const Tabs=()=> {
                   ...styles.shadow,
                 }
             }}
+ 
+             
     >
       <Tab.Screen name="Products" component={ProductsOverview} options={{ headerShown:true,
         tabBarIcon: ({focused}) => (<View style={{alignItems:'center',justifyContent:'center',top:Platform.OS === 'ios'?15:0}}>

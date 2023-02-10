@@ -4,7 +4,7 @@ import {StyleSheet, View, Image, Text, TouchableOpacity, Platform, TouchableNati
 const ProductItem = (props)=>{
   let ViewComp = TouchableOpacity;
   if(Platform.OS === 'android' && Platform.Version >= 21) ViewComp = TouchableNativeFeedback;
-
+ 
     return <ViewComp style={{width:'95%'}} onPress={props.onSelect} useForground>
               <View style={styles.container} onPress={props.onPress}>
                 <Image source={{uri:props.imageUrl}} style={styles.image}/>
@@ -16,6 +16,8 @@ const ProductItem = (props)=>{
               </View>
            </ViewComp>
   };
+  
+
   
   const styles = StyleSheet.create({
       container:{

@@ -4,7 +4,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 
 import Colors from '../constants/Colors';
 
-
+ 
 const CustomBackBtn = (props)=>{
     return <View style={styles.box}>
                 <TextInput />

@@ -12,4 +12,4 @@ export const deleteFromCart = (productId)=>{
         type:DELETE_FROM_CART,
         productId,
     }
-}   
+}    

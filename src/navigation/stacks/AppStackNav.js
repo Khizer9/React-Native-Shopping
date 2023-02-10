@@ -3,7 +3,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Tabs from '../Tabs';
 import ProductsOverview from '../../screens/shop/ProductsOverview';
 import ProductDetails from '../../screens/shop/ProductDetails';
-
+ 
 const Stack = createNativeStackNavigator();
 const  AppStackNav = (props) => {
   return (
@@ -15,5 +15,6 @@ const  AppStackNav = (props) => {
       </Stack.Navigator>
   );
 }
+
 
 export default AppStackNav;

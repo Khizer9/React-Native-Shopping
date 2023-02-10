@@ -5,4 +5,4 @@ export default class CartItems {
         this.productPrice = productPrice;
         this.sum = sum;
     }
-}
+} 

@@ -11,7 +11,7 @@ export default (state=initialState, action)=>{
             const newOrder = new Order( uniQueId,
                                         action.orderData.items,
                                         action.orderData.amount,
-                                        new Date()
+                                         new Date()
                                       )
            return {
                ...state,
